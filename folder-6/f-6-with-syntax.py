@@ -1,5 +1,4 @@
-# Folder 6: Video - 7 : Reading JSON files in python
-
+# Folder 6: Video - 9 :  Using the with syntax in python
 
 import json
 
@@ -29,3 +28,22 @@ my_json_string = '[{"name":"alfa","released":1985}]'
 incorrect_car = json.loads(my_json_string)
 
 print(incorrect_car[0])
+
+# Using with 
+
+with open('friend_json','r') as file:
+    file_contents = json.load(file)
+print(file_contents['friends'][0])
+
+cars = [
+    {'make':'Ford','modal':'Fiesta'},
+    {'make':'Ford','modal':'Focus'},q
+]
+
+with open('cars_json','w') as file:
+    json.dump(cars,file)
+
+my_json_string = '[{"name":"alfa","released":1985}]'
+
+incorrect_car = json.loads(my_json_string)
+print(incorrect_car[0]['name'])

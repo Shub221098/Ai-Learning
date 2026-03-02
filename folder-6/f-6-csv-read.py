@@ -1,3 +1,6 @@
+# Folder 6: Video - 5 : Reading CSV files in python
+
+
 read_lines = open('csv_data', 'r')
 lines = read_lines.readlines()
 read_lines.close()

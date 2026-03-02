@@ -1,6 +1,4 @@
-
-
-
+# Folder 6: Video - 3 : python excercise copying files
 
 friends = input("Enter three friend names, separated by a comma (np spaces, please) :").split(',')
 

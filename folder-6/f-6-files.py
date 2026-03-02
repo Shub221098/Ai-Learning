@@ -1,7 +1,10 @@
+# Folder 6: Video - 2 : Files in python
+
+
 # if you want to read any txt files you can read like below
 # with Open() function
 
-
+ 
 
 
 name = input("Enter your name:")
